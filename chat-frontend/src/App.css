@@ -1,0 +1,95 @@
+body {
+  border: 0.25px dotted lightslategray;
+  padding: 37px;
+}
+
+.navbar-brand {
+  border: 0.25px dotted lightslategray;
+  border-radius: 7px;
+  width: 100%;
+  padding: 11px;
+}
+
+a {
+  color: lightslategray;
+}
+
+#messages {
+  height: calc(100vh - 140px);
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+span.messageText {
+  margin-right: 20px;
+}
+
+span.messageText,
+span.messageText.userMessageText {
+  border: 0.25px dotted lightslategray;
+  width: 57%;
+  padding: 11px;
+  padding-left: 13px;
+  padding-right: 13px;
+}
+
+.messageText {
+  color: lightslategray;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 30px;
+  border: 0.25px dotted lightslategray;
+}
+
+.userMessageText {
+  color: lightslategray;
+  padding: 10px;
+}
+
+.message {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+div.buttons {
+  color: lightslategray;
+  font-size: smaller;
+  margin-right: 15px;
+}
+
+div.timestamp {
+  margin-top: 9px;
+}
+
+.timestamp {
+  color: darkgray;
+  font-size: 10px;
+  margin-bottom: 13px;
+  margin-left: 13px;
+  margin-right: 13px;
+}
+
+.inputBar {
+  padding-top: 10px;
+}
+
+input.form-control::placeholder {
+  color: lightslategray;
+  font-size: 1rem;
+  text-transform: lowercase;
+}
+
+.inputBar .btn {
+  width: 100%;
+  margin-left: -17px;
+  border: 0.25px dotted lightslategray;
+  color: darkslategray;
+}
+
+.message .buttons {
+  visibility: hidden;
+}
+
+.message:hover .buttons {
+  visibility: visible;
+}

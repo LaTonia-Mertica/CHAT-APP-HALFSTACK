@@ -1,0 +1,6 @@
+.DS_Store
+chat-backend/node_modules/.package-lock.json
+node_modules
+
+
+# run echo node_modules >> .gitignore to create and add node_modules and subfolders for ignoring
