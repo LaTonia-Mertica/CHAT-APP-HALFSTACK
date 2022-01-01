@@ -1,8 +1,33 @@
 # **CHAT APP HALF STACK**
 
-##### functional outbound message chat app with a) simulated computer generated response, b) timestamp, and c) overall wireframe design\_
+##### _functional outbound message chat app with a) simulated computer generated response, b) timestamp, and c) overall wireframe design_
 
-## <br>
+<br>
+
+**HOW WORKS**<br>
+
+- enter text for outbound message
+
+  - hover cursor over outbound message for edit and delete options
+  - edit outbound message(s) as needed, including confirmation prompt
+  - delete outbound message(s) as needed, including confirmation prompt<br>
+
+###### **random fact:** there's also a border around the full chat app seen when tug sides<br>
+
+<br>
+
+**NEXT STEPS**<br>
+
+- deemed not applicable <img src="images/huh.png" alt="mind blown emoji" width="15%" />
+  - next steps have already been addressed in full-stack version ... although, deploy is always a solid option for universal access
+
+<br>
+
+<img src="images/chatapp.png" alt="chat app half stack" title="featuring wireframe design" width="100%" />
+
+<br>
+
+---
 
 # Getting Started with Create React App
 
